@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SydneyHandicrafts | Premium Rajasthani Heritage Subscription</title>
+    <meta name="description" content="Luxury Rajasthani handicrafts delivered monthly to Sydney's finest homes. Sanganeri prints, Meenakari magic, and Jaipur heritage.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'royal-gold': '#D4AF37',
+                        'jaipur-pink': '#EF7C8E',
+                        'deep-maroon': '#800000',
+                        'aussie-navy': '#000033',
+                        'sandstone': '#F5F5DC'
+                    },
+                    fontFamily: {
+                        'serif': ['Playfair Display', 'serif'],
+                        'sans': ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(45deg, #D4AF37, #EF7C8E);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-white font-sans text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <span class="text-2xl font-bold font-serif text-deep-maroon tracking-tight">Sydney<span class="text-royal-gold font-light">Handicrafts</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-gray-700">
+                    <a href="#how-it-works" class="hover:text-jaipur-pink transition-colors">How It Works</a>
+                    <a href="#features" class="hover:text-jaipur-pink transition-colors">Heritage Box</a>
+                    <a href="#testimonials" class="hover:text-jaipur-pink transition-colors">Success Stories</a>
+                    <a href="#pricing" class="bg-deep-maroon text-white px-6 py-3 rounded-full hover:bg-jaipur-pink transition-all shadow-lg">Join The Maharaja Club</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 lg:pt-48 lg:pb-32 bg-[url('https://www.transparenttextures.com/patterns/p6.png')] bg-sandstone">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <span class="inline-block py-1 px-3 rounded-full bg-jaipur-pink/10 text-jaipur-pink text-xs font-bold uppercase tracking-widest mb-4 italic">
+                    Exclusively for Sydney's Finest Addresses
+                </span>
+                <h1 class="text-5xl lg:text-7xl font-serif font-bold text-deep-maroon leading-tight mb-6">
+                    Spice Up Your Sydney Mansion with a <span class="gradient-text">Dash of Desi Royalty.</span>
+                </h1>
+                <p class="text-xl text-gray-600 mb-10 leading-relaxed font-light">
+                    From the havelis of Jaipur to your doorstep in Castle Hill. Get a curated box of authentic, artisan-made Rajasthani treasures delivered monthly.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#pricing" class="bg-deep-maroon text-white px-10 py-5 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-2xl">
+                        Join the Maharaja Club
+                    </a>
+                    <a href="#features" class="border-2 border-deep-maroon text-deep-maroon px-10 py-5 rounded-full text-lg font-bold hover:bg-deep-maroon hover:text-white transition-all">
+                        See This Month's Box
+                    </a>
+                </div>
+                <p class="mt-6 text-sm text-gray-500 italic">
+                    Limited to 50 residents per suburb. No waitlists in Maroubra (yet).
+                </p>
+            </div>
+            <div class="lg:w-1/2 mt-16 lg:mt-0 relative">
+                <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-8 border-white">
+                    <img src="https://images.unsplash.com/photo-1582531093158-1d701e3b627f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Rajasthani Decor" class="w-full h-auto">
+                </div>
+                <!-- Decorative elements -->
+                <div class="absolute -top-10 -right-10 w-40 h-40 bg-royal-gold/20 rounded-full blur-3xl"></div>
+                <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-jaipur-pink/20 rounded-full blur-3xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-serif font-bold text-deep-maroon">Why Your Coffee Table Needs Us</h2>
+                <p class="text-gray-500 mt-4">Because Kmart decor just doesn't scream 'Grand Haveli'.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="card-hover p-8 rounded-3xl bg-sandstone/30 border border-royal-gold/20">
+                    <div class="w-16 h-16 bg-royal-gold rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-2.06m8.834 2.06a3.42 3.42 0 01-1.946-2.06M2.835 18.271a3.42 3.42 0 001.947 2.06m8.834-2.06a3.42 3.42 0 011.947 2.06M6.433 13.111l-3.376 6.345c-.449.845-.333 1.868.291 2.593.623.725 1.63.957 2.492.584l6.09-2.618M17.567 13.111l3.376 6.345c.449.845.333 1.868-.291 2.593-.623.725-1.63.957-2.492.584l-6.09-2.618m4.321-7.145l-4.321 8.125m-8.642-8.125l4.321 8.125"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-deep-maroon mb-4">Authenticity Guaranteed</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        No mass-produced fakes. Just pure Sanganeri prints, Meenakari magic, and hand-beaten metalwork from generational artisans.
+                    </p>
+                </div>
+                <div class="card-hover p-8 rounded-3xl bg-jaipur-pink/5 border border-jaipur-pink/20">
+                    <div class="w-16 h-16 bg-jaipur-pink rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-deep-maroon mb-4">Sydney White Glove</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Forget the international shipping headaches. We deliver locally from our Sydney warehouse with the care your heritage deserves.
+                    </p>
+                </div>
+                <div class="card-hover p-8 rounded-3xl bg-sandstone/30 border border-royal-gold/20">
+                    <div class="w-16 h-16 bg-deep-maroon rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-deep-maroon mb-4">Curated Discovery</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Each month tells a new story—Textiles, Metalwork, or Marble Inlays. It's like a first-class ticket to Rajasthan without the jetlag.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-serif font-bold text-center text-deep-maroon mb-16">The Path to Royalty</h2>
+            <div class="relative">
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-royal-gold/20 -translate-y-1/2"></div>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="relative z-10 bg-gray-50 px-4">
+                        <div class="w-12 h-12 bg-royal-gold text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
+                        <h4 class="text-xl font-bold mb-2">Subscribe</h4>
+                        <p class="text-gray-600">Join the Heritage Box club. Cancel anytime (but you won't want to).</p>
+                    </div>
+                    <div class="relative z-10 bg-gray-50 px-4">
+                        <div class="w-12 h-12 bg-royal-gold text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
+                        <h4 class="text-xl font-bold mb-2">Sourcing</h4>
+                        <p class="text-gray-600">Our curators source limited-edition pieces direct from the Thar Desert.</p>
+                    </div>
+                    <div class="relative z-10 bg-gray-50 px-4">
+                        <div class="w-12 h-12 bg-royal-gold text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
+                        <h4 class="text-xl font-bold mb-2">Unbox Luxury</h4>
+                        <p class="text-gray-600">Elevate your living space in Strathfield or Castle Hill with timeless art.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="testimonials" class="py-24 bg-deep-maroon text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <div class="relative">
+                        <span class="text-8xl font-serif text-royal-gold/40 absolute -top-10 -left-6">“</span>
+                        <p class="text-3xl font-serif italic relative z-10 leading-relaxed">
+                            "My Strathfield home was missing that soul from back home. SydneyHandicrafts brings a piece of Rajasthan to me every month. It’s like a hug from my dadi, but much more stylish!"
+                        </p>
+                        <div class="mt-8 flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-full bg-jaipur-pink flex items-center justify-center font-bold text-xl">PS</div>
+                            <div>
+                                <p class="font-bold">Priya S.</p>
+                                <p class="text-royal-gold">Strathfield, NSW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 bg-white/10 p-10 rounded-3xl backdrop-blur-sm">
+                    <h3 class="text-4xl font-serif font-bold mb-6">Join 500+ Sydney Homes</h3>
+                    <p class="mb-8 text-lg text-gray-200 uppercase tracking-wide">Currently shipping to:</p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm">Castle Hill</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm">Maroubra</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm">Cherrybrook</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm">Parramatta</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm">Blacktown</span>
+                        <span class="bg-white/20 px-4 py-2 rounded-full text-sm">Vaucluse</span>
+                    </div>
+                    <div class="mt-10">
+                        <div class="text-royal-gold text-2xl font-bold flex items-center gap-2">
+                            <span class="flex -space-x-2">
+                                <div class="w-8 h-8 rounded-full border-2 border-deep-maroon bg-white text-[8px] flex items-center justify-center">+</div>
+                            </span>
+                            4.9/5 Rating from our Sydney Royal Members
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="pricing" class="py-24 bg-sandstone">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-5xl font-serif font-bold text-deep-maroon mb-6 italic">Ready to rule the neighborhood?</h2>
+            <p class="text-xl text-gray-700 mb-10">
+                Limited slots available for our next Heritage Box shipment. Don’t let your coffee table stay boring while the neighbors are living like maharajas.
+            </p>
+            <div class="bg-white p-8 md:p-12 rounded-[3rem] shadow-2xl border-2 border-royal-gold">
+                <span class="text-royal-gold font-bold uppercase tracking-widest text-sm">The Heritage Subscription</span>
+                <div class="my-6">
+                    <span class="text-6xl font-serif font-bold text-deep-maroon block">$149<span class="text-lg font-sans text-gray-400 font-normal ml-2 tracking-normal">/ month</span></span>
+                </div>
+                <ul class="text-left space-y-4 max-w-md mx-auto mb-10">
+                    <li class="flex items-center gap-3">
+                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        One premium handmade handicraft monthly
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Artisan profile & heritage story booklet
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Free White Glove delivery across Greater Sydney
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Exclusive access to our annual Jaipur Gala
+                    </li>
+                </ul>
+                <button class="w-full bg-deep-maroon text-white py-6 rounded-2xl text-xl font-bold hover:bg-jaipur-pink transition-all shadow-xl">
+                    Start My Subscription Now
+                </button>
+                <p class="mt-4 text-sm text-gray-400">No long-term contracts. Cancel with 30 days notice.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-20 pb-10 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex justify-between items-start mb-16">
+                <div class="mb-8 md:mb-0">
+                    <span class="text-3xl font-serif font-bold text-deep-maroon leading-none">Sydney<span class="text-royal-gold font-light">Handicrafts</span></span>
+                    <p class="mt-4 text-gray-500 max-w-xs">
+                        Making Sydney homes more vibrant, one Meenakari vase at a time. Follow our journey from Jaipur to Circular Quay.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-10">
+                    <div>
+                        <h5 class="font-bold mb-4">Company</h5>
+                        <ul class="text-gray-500 space-y-2 text-sm">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">The Artisans</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5 class="font-bold mb-4">Support</h5>
+                        <ul class="text-gray-500 space-y-2 text-sm">
+                            <li><a href="#">Delivery Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-100 pt-8 flex flex-col md:row items-center justify-between gap-4">
+                <p class="text-gray-400 text-sm">
+                    © 2024 SydneyHandicrafts. All rights reserved. Built with Desi Pride in Australia.
+                </p>
+                <div class="flex gap-6 text-gray-400">
+                    <a href="#" class="hover:text-jaipur-pink transition-colors underline decoration-royal-gold">Privacy</a>
+                    <a href="#" class="hover:text-jaipur-pink transition-colors underline decoration-royal-gold">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
